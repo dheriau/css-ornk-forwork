@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container img {
+    width: 100%;
+    height: auto; 
+    margin: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column; 
+    }
+    .container img {
+        width: 100%; 
+    }
+}
+</style>
+<body>
+    
+    <div class="container">
+        <img src="https://static.wikia.nocookie.net/sungerbob-karepantolon/images/6/60/200px-SpongeBob_SquarePants.svg.png/revision/latest/scale-to-width-down/180?cb=20140905105010&path-prefix=tr" alt="image1">
+        <img src="https://static.wikia.nocookie.net/sungerbob-karepantolon/images/6/60/200px-SpongeBob_SquarePants.svg.png/revision/latest/scale-to-width-down/180?cb=20140905105010&path-prefix=tr" alt="image2">
+        <img src="https://static.wikia.nocookie.net/sungerbob-karepantolon/images/6/60/200px-SpongeBob_SquarePants.svg.png/revision/latest/scale-to-width-down/180?cb=20140905105010&path-prefix=tr" alt="image3">
+        <img src="https://static.wikia.nocookie.net/sungerbob-karepantolon/images/6/60/200px-SpongeBob_SquarePants.svg.png/revision/latest/scale-to-width-down/180?cb=20140905105010&path-prefix=tr" alt="image4">
+    </div>
+</body>
+</html>
